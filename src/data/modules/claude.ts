@@ -1,4 +1,4 @@
-import { AIModel, Lesson } from '../../types';
+﻿import { AIModel, Lesson } from '../../types';
 
 export const claudeModels: AIModel[] = [
   {

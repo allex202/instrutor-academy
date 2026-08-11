@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useReducer, useEffect, useCallback } from 'react';
+﻿import React, { createContext, useContext, useReducer, useEffect, useCallback } from 'react';
 import { storage } from '../services/storage';
 import type { UserProgress, QuizResult, SimuladoResult, FlashcardProgress, Note, PromptLabEntry, TeachingLabEntry } from '../types';
 

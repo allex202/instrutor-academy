@@ -17,9 +17,9 @@ export const phases: Phase[] = [
   },
   {
     number: 3,
-    title: 'Claude',
-    description: 'A família de modelos Claude e seus concorrentes de mercado',
-    moduleIds: ['claude', 'competitors'],
+    title: 'Claude e Ecossistema Global',
+    description: 'A família de modelos Claude, OpenAI, Google Gemini e concorrentes de mercado',
+    moduleIds: ['claude', 'openai', 'gemini', 'competitors'],
     icon: 'bot'
   },
   {
@@ -97,6 +97,24 @@ export const modules: Module[] = [
     title: 'Claude',
     description: 'Explore a família Claude (Opus, Sonnet, Haiku), suas capacidades multimodais e os melhores casos de uso para cada modelo.',
     icon: '🤖',
+    phase: 3,
+    order: 3,
+    lessons: []
+  },
+  {
+    id: 'openai',
+    title: 'OpenAI e ChatGPT',
+    description: 'Domine a arquitetura do ChatGPT, modelos GPT-4o e o1, e as diferenças essenciais de Prompting.',
+    icon: '🧠',
+    phase: 3,
+    order: 2,
+    lessons: []
+  },
+  {
+    id: 'gemini',
+    title: 'Google Gemini',
+    description: 'Arquitetura MoE, Multimodalidade Nativa, Gemini Spark e o ecossistema Google Cloud.',
+    icon: '💡',
     phase: 3,
     order: 3,
     lessons: []

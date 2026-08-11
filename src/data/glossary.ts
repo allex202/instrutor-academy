@@ -1,4 +1,4 @@
-import { GlossaryEntry } from '../types';
+﻿import { GlossaryEntry } from '../types';
 
 export const glossaryEntries: GlossaryEntry[] = [
   {

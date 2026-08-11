@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+﻿import React, { useMemo } from 'react';
 import { useProgress } from '../contexts/ProgressContext';
 import { modules } from '../data/courses';
 import { allAchievements } from '../data/achievements';

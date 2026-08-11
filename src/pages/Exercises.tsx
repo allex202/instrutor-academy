@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Target, CheckCircle2, XCircle, ChevronRight, Play } from 'lucide-react';
 import { allQuestions } from '../data/questions';
 import { modules } from '../data/courses';

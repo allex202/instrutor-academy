@@ -1,4 +1,4 @@
-// Storage service — abstracts localStorage for future DB migration
+﻿// Storage service — abstracts localStorage for future DB migration
 const STORAGE_PREFIX = 'ailh_';
 
 export const storage = {

@@ -1,4 +1,4 @@
-import { Flashcard } from '../types';
+﻿import { Flashcard } from '../types';
 
 export const allFlashcards: Flashcard[] = [
   // ai-fundamentals

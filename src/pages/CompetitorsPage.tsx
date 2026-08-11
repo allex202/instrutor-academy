@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Target, CheckCircle2, Circle, ChevronDown, ChevronUp, Check, BrainCircuit, BookOpen } from 'lucide-react';
 import { useProgress } from '../contexts/ProgressContext';
 import { competitorsModels, competitorsLessons } from '../data/modules/competitors';

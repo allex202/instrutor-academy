@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Layers, FileText, History, MessageSquare, Database, AlertCircle, PlayCircle, CheckCircle2 } from 'lucide-react';
 import { contextWindowLessons } from '../data/modules/context-window';
 import { estimateTokens } from '../services/scoring';

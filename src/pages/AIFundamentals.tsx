@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useProgress } from '../contexts/ProgressContext';
 import { aiFundamentalsLessons, aiFundamentalsConcepts } from '../data/modules/ai-fundamentals';
 import { ModuleQuiz } from '../components/shared/ModuleQuiz';

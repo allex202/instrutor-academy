@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Book, Search, Heart, Tag } from 'lucide-react';
 import { glossaryEntries } from '../data/glossary';
 import { useProgress } from '../contexts/ProgressContext';

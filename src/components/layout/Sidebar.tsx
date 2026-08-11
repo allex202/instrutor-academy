@@ -4,7 +4,7 @@ import { useProgress } from '../../contexts/ProgressContext';
 import {
   LayoutDashboard, Map, Brain, Building2, Bot, Pen, Terminal, Code2,
   Layers, Box, Wrench, Network, Shield, Cpu, GraduationCap, FlaskConical,
-  Dumbbell, ClipboardList, CreditCard, BookOpen, StickyNote, ExternalLink, X, Target
+  Dumbbell, ClipboardList, CreditCard, BookOpen, StickyNote, ExternalLink, X, Target, MessageSquare, Hexagon
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -26,6 +26,8 @@ const navigation = [
       { name: 'Fundamentos de IA', path: '/fundamentos-ia', icon: Brain },
       { name: 'Anthropic', path: '/anthropic', icon: Building2 },
       { name: 'Claude', path: '/claude', icon: Bot },
+      { name: 'OpenAI / ChatGPT', path: '/openai', icon: MessageSquare },
+      { name: 'Google / Gemini', path: '/gemini', icon: Hexagon },
       { name: 'Mercado e Concorrentes', path: '/concorrentes', icon: Target },
       { name: 'Prompt Engineering', path: '/prompt-engineering', icon: Pen },
       { name: 'Claude Code', path: '/claude-code', icon: Terminal },
@@ -85,15 +87,15 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         <div className="relative flex flex-col p-6 shrink-0">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 shadow-lg shadow-orange-500/20">
-                <Brain className="w-6 h-6 text-white" />
+              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-slate-800 border border-slate-700 shadow-md">
+                <Layers className="w-5 h-5 text-indigo-400" />
               </div>
               <div>
-                <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent leading-none">
+                <h1 className="text-3xl font-extrabold tracking-tight text-white leading-none">
                   AGL
                 </h1>
-                <p className="text-[11px] font-medium text-slate-400 mt-1 uppercase tracking-wider leading-none">
-                  Anthropic Generative
+                <p className="text-[11px] font-bold text-indigo-400 mt-1 uppercase tracking-widest leading-none">
+                  Academy
                 </p>
               </div>
             </div>

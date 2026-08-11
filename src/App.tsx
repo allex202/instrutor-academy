@@ -10,6 +10,8 @@ const Journey = React.lazy(() => import('./pages/Journey'));
 const AIFundamentals = React.lazy(() => import('./pages/AIFundamentals'));
 const Anthropic = React.lazy(() => import('./pages/AnthropicPage'));
 const Claude = React.lazy(() => import('./pages/ClaudePage'));
+const OpenAI = React.lazy(() => import('./pages/OpenAI'));
+const Gemini = React.lazy(() => import('./pages/Gemini'));
 const Competitors = React.lazy(() => import('./pages/CompetitorsPage'));
 const PromptEngineering = React.lazy(() => import('./pages/PromptEngineering'));
 const ClaudeCode = React.lazy(() => import('./pages/ClaudeCode'));
@@ -90,6 +92,8 @@ const App: React.FC = () => {
                     <Route path="/fundamentos-ia" element={<AIFundamentals />} />
                     <Route path="/anthropic" element={<Anthropic />} />
                     <Route path="/claude" element={<Claude />} />
+                    <Route path="/openai" element={<OpenAI />} />
+                    <Route path="/gemini" element={<Gemini />} />
                     <Route path="/concorrentes" element={<Competitors />} />
                     <Route path="/prompt-engineering" element={<PromptEngineering />} />
                     <Route path="/claude-code" element={<ClaudeCode />} />

@@ -1,4 +1,4 @@
-import { Reference } from '../types';
+﻿import { Reference } from '../types';
 
 export const allReferences: Reference[] = [
   {

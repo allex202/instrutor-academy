@@ -18,7 +18,9 @@ export type ModuleId =
   | 'responsible-ai'
   | 'agentic-ai'
   | 'instructor'
-  | 'competitors';
+  | 'competitors'
+  | 'openai'
+  | 'gemini';
 
 export interface Module {
   id: ModuleId;

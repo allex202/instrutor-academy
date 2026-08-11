@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+﻿import React, { useState, useMemo } from 'react';
 import { useProgress } from '../../contexts/ProgressContext';
 import { allQuestions } from '../../data/questions';
 import { CheckCircle, XCircle, Award } from 'lucide-react';

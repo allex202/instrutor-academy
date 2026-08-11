@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { MessageCircleQuestion, Lightbulb, ChevronRight, CheckCircle2 } from 'lucide-react';
 
 interface Question {

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+﻿import React, { useState, useMemo } from 'react';
 import { useProgress } from '../contexts/ProgressContext';
 import { Note, ModuleId } from '../types';
 import { Search, Plus, Trash2, Edit2, Star, X, Tag } from 'lucide-react';

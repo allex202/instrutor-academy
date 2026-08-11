@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useProgress } from '../contexts/ProgressContext';
 import { claudeCodeLessons } from '../data/modules/claude-code';
 import { ModuleQuiz } from '../components/shared/ModuleQuiz';

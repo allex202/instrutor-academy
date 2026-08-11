@@ -6,6 +6,8 @@ const searchIndex = [
   { title: 'Fundamentos de IA', path: '/fundamentos-ia', tags: 'ia basico machine learning llm embeddings redes neurais deep learning ai' },
   { title: 'Ecossistema Anthropic', path: '/anthropic', tags: 'empresa claude constitucional alinhamento' },
   { title: 'Modelos Claude', path: '/claude', tags: 'opus sonnet haiku claude 3.5' },
+  { title: 'OpenAI e ChatGPT', path: '/openai', tags: 'chatgpt openai gpt-4o o1 strawberry sam altman' },
+  { title: 'Ecossistema Google (Gemini)', path: '/gemini', tags: 'google gemini spark deepmind moe ring attention vertex ai studio' },
   { title: 'Mercado e Concorrentes', path: '/concorrentes', tags: 'openai chatgpt gemini google meta llama' },
   { title: 'Prompt Engineering', path: '/prompt-engineering', tags: 'prompts xml tags chain of thought few shot zero shot' },
   { title: 'Claude Code (CLI)', path: '/claude-code', tags: 'terminal cli agent bash ferramentas' },

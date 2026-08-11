@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { ExternalLink, Search, BookOpen, Video, Code2, GraduationCap, Link2, AlertCircle } from 'lucide-react';
 import { allReferences } from '../data/references';
 

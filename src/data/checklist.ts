@@ -1,4 +1,4 @@
-import { ChecklistItem } from '../types';
+﻿import { ChecklistItem } from '../types';
 
 export const checklistItems: ChecklistItem[] = [
   { id: 'req-1', text: 'Entender a arquitetura de Transformers e Embeddings', category: 'Fundamentos' },

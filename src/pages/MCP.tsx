@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Network, Server, Smartphone, Globe, Shield, Database, LayoutTemplate, Cable, Wrench } from 'lucide-react';
 import { mcpLessons } from '../data/modules/mcp';
 import MCPArchitecture from '../components/animations/MCPArchitecture';

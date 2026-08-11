@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+﻿import React, { useState, useMemo } from 'react';
 import { Layers, RotateCcw, Check, X, Filter } from 'lucide-react';
 import { allFlashcards } from '../data/flashcards';
 import { useProgress } from '../contexts/ProgressContext';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Beaker, Shield, GraduationCap, Send, CheckCircle, AlertTriangle } from 'lucide-react';
 import { analyzePrompt, analyzeTeachingResponse } from '../services/scoring';

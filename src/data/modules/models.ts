@@ -1,4 +1,4 @@
-import { Lesson } from '../../types';
+﻿import { Lesson } from '../../types';
 import { claudeModels } from './claude';
 
 export const modelsData = claudeModels; // Reusing from claude module to keep DRY, but exporting for this specific module context

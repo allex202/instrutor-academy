@@ -1,4 +1,4 @@
-import { Lesson } from '../../types';
+﻿import { Lesson } from '../../types';
 
 export const contextWindowLessons: Lesson[] = [
   {
@@ -19,8 +19,8 @@ export const contextWindowLessons: Lesson[] = [
         {
           id: 'sec-2',
           type: 'text',
-          title: 'O Limite de Contexto',
-          content: 'O limite de contexto do Claude é 200.000 tokens (aproximadamente 150.000 palavras, ou um livro de 500 páginas). Esse número representa a soma total do Prompt (input) + Resposta (output). Se você enviar 190.000 tokens de texto, a resposta máxima possível será de apenas 10.000 tokens.'
+          title: 'A Ilusão da Janela Vazia (Hard Caps)',
+          content: 'Um erro muito comum é achar que a janela de 200.000 tokens é um "balde" livre onde Input + Output = 200k. Na verdade, a geração de respostas (Output) tem um limite máximo fixo muito menor (Hard Cap). Por exemplo, o Claude 3.5 Sonnet gera no máximo 8.192 tokens por resposta, e o Claude 3 Opus gera no máximo 4.096 tokens. Mesmo se você enviar um prompt de apenas 10 tokens (deixando 199.990 livres), a IA nunca ultrapassará o seu Hard Cap em uma única mensagem.'
         }
       ]
     }

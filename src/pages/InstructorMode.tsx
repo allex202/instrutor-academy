@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { GraduationCap, BookOpen, Users, Lightbulb, MessageCircle, Star, ChevronDown, ChevronUp } from 'lucide-react';
 import { instructorLessons, teachingQuestions } from '../data/modules/instructor';
 import StudentSimulator from '../components/shared/StudentSimulator';

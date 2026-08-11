@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Shield, AlertTriangle, CheckCircle, Lock, EyeOff, BookOpen, ChevronRight } from 'lucide-react';
 import { responsibleAILessons, securityScenarios } from '../data/modules/responsible-ai';
 

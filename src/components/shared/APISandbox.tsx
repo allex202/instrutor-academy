@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Terminal, Play, Loader2, Code2, Server } from 'lucide-react';
 
 const scenarios = [

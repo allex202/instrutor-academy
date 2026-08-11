@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useProgress } from '../contexts/ProgressContext';
 import { apiLessons, codeExamples } from '../data/modules/api-development';
 import { ModuleQuiz } from '../components/shared/ModuleQuiz';

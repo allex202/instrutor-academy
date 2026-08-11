@@ -1,4 +1,4 @@
-import { Lesson } from '../../types';
+﻿import { Lesson } from '../../types';
 
 export const codeExamples = [
   {
@@ -32,6 +32,13 @@ export const apiLessons: Lesson[] = [
           title: 'Exemplo prático',
           codeLanguage: 'typescript',
           content: '// Importando o SDK Node.js\nimport Anthropic from "@anthropic-ai/sdk";\n\nconst client = new Anthropic({ apiKey: "YOUR_KEY" });'
+        },
+        {
+          id: 'sec-4',
+          type: 'callout',
+          calloutType: 'warning',
+          title: 'Atenção ao Parâmetro max_tokens',
+          content: 'Na Messages API, `max_tokens` é obrigatório. Mas lembre-se da regra do "Hard Cap" ensinada na aba de Janela de Contexto: você não pode passar um número maior que o limite de geração do modelo (ex: não passe 10000 para o Opus, que suporta apenas 4096).'
         }
       ]
     }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+﻿import React, { useEffect, useState } from 'react';
 import { Bot, Network, Database, Cloud, GitBranch, Lock } from 'lucide-react';
 
 export default function MCPArchitecture() {

@@ -1,4 +1,4 @@
-import type { PromptFeedback, TeachingFeedback } from '../types';
+﻿import type { PromptFeedback, TeachingFeedback } from '../types';
 
 export function analyzePrompt(prompt: string, objective: string): { score: number; feedback: PromptFeedback } {
   const trimmed = prompt.trim();

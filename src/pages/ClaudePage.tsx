@@ -93,7 +93,7 @@ export default function ClaudePage() {
                   </Badge>
                 </div>
                 <h3 className="text-xl font-bold text-stone-900 dark:text-stone-100">{model.name}</h3>
-                <p className="text-sm text-stone-500 dark:text-stone-400 mt-2 h-10">{model.purpose}</p>
+                <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">{model.purpose}</p>
               </div>
               <div className="p-6 flex-1 flex flex-col gap-4">
                 <div>

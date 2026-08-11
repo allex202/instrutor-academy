@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useProgress } from '../contexts/ProgressContext';
 import { promptEngineeringLessons, promptExamples } from '../data/modules/prompt-engineering';
 import { ModuleQuiz } from '../components/shared/ModuleQuiz';

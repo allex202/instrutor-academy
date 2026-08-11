@@ -103,7 +103,7 @@ export default function Models() {
                 </span>
               </div>
               
-              <p className="text-stone-600 dark:text-stone-400 text-sm mb-6 h-10">
+              <p className="text-stone-600 dark:text-stone-400 text-sm mb-6">
                 {model.purpose}
               </p>
 
